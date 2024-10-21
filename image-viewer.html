@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Viewer</title>
     <link rel="stylesheet" href="css/image-viewer.css"/>
+    <script src="js/image-viewer.js" defer></script>
+    <!-- defer used to tell js to wait for the page to load before running -->
 </head>
 <body>
     <div id="container">
-        <img id="hero-image">
+        <img id="hero-image" src="images/guinea-pig.jpg">
         <div id="menu-holder">
-            <div class="menu-item"><h4>Cat</h4></div>
-            <div class="menu-item"><h4>Dog</h4></div>
-            <div class="menu-item"><h4>Guinea Pig</h4></div>
-            <div class="menu-item"><h4>Hamster</h4></div>
-            <div class="menu-item"><h4>Rabbit</h4></div>
+            <div id="cat" class="menu-item"><h4>Cat</h4></div>
+            <div id="dog" class="menu-item"><h4>Dog</h4></div>
+            <div id="piggy" class="menu-item"><h4>Guinea Pig</h4></div>
+            <div id="Hamster" class="menu-item"><h4>Hamster</h4></div>
+            <div id="rabbit" class="menu-item"><h4>Rabbit</h4></div>
         </div>
     </div>
 </body>
